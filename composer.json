@@ -13,19 +13,17 @@
     ],
     "support": {
         "source": "https://github.com/gustabin/chatgptModulos.git"
-    },    
-    "minimum-stability" : "dev",
-    "autoload": {
-        "files": [
-            "html/index.html"
-        ],
-        "psr-4": {
-            "Html\\": "html/"
-        }
     },
     "require": {
         "php": "^8.0",
         "twbs/bootstrap": "^5.3",
-        "components/jquery": "^3.6"
+        "components/jquery": "^3.6",
+        "gustabin/chatgpt-php": "dev-main"
+    },
+    "minimum-stability" : "dev",
+    "autoload": {
+        "psr-4": {
+            "Gustabin\\Chatgptphp\\": "src/"
+        }
     }
 }
