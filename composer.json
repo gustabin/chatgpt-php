@@ -1,8 +1,8 @@
 {
-    "name": "gustabin/chatgpt-php",
-    "description": "Chatbot with openai API chatgpt in PHP",
-    "type": "project",
-    "keywords": ["chatbot", "chatgpt", "php", "openai"],
+    "name": "gustabin/chatgptphp",
+    "description": "Chatbot using chatgpt with PHP",
+    "type": "library",
+    "keywords": ["chatbot", "chatgpt", "php"],
     "license": "MIT",
     "authors": [
         {
