@@ -13,9 +13,6 @@
             "role": "Developer"
         }
     ],
-    "require": {
-        "php": ">=8.0.0"
-    },
     "autoload": {
         "psr-4": {
             "ChatbotGptPhp\\": "src/"
