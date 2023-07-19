@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ing. Gustavo Arias">
+    <meta property="og:site_name" content="Stack code lab">
+    <link rel="icon" type="image/x-icon" href="./../img/favicon.ico">
+    <title>Chat</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../css/style.css">
+</head>
+
+<body>
+    <main class="my-2">
+        <div class="container">
+            <div class="row" id="descripcion">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12 my-5">
+                            <h1 style="text-align: center;">
+                                ChatBot
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-md-2">
+
+                        </div>
+                        <div class="col-md-3">
+                            <div style="text-align: center;">
+                                <i class="fa fa-camera-retro fa-2x"></i>
+                                <h4>Ejemplo</h4>
+                            </div>
+                            <div class="fondo-gris">
+                                <p>
+                                    "¿Puedes decirme cuál es la capital de Francia?"
+                                </p>
+                                <p>
+                                    "¿Cuál es tu opinión sobre el cambio climático?"
+                                </p>
+                                <p>
+                                    "¿Podrías recomendarme una película de comedia?"
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div style="text-align: center;">
+                                <i class="fa fa-film fa-2x"></i>
+                                <h4>Capacidades</h4>
+                            </div>
+                            <div class="fondo-gris">
+                                <p>
+                                    Capacidad de generar texto coherente y relevante.
+                                </p>
+                                <p>
+                                    Capaz de recordar y mantener el contexto de la conversación.
+                                </p>
+                                <p>
+                                    Capacidad de realizar tareas específicas.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div style="text-align: center;">
+                                <i class="fa fa-headphones fa-2x"></i>
+                                <h4>Limitaciones</h4>
+                            </div>
+                            <div class="fondo-gris">
+                                <p>
+                                    Generación de respuestas sin fundamentos.
+                                </p>
+                                <p>
+                                    Falta de comprensión contextual profunda.
+                                </p>
+                                <p>
+                                    Dificultad para pedir clarificaciones.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-1">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="chat-log" class="textarea" style="display: none;"></div>
+                <form id="chat-form" method="post">
+                    <div class="input-group mb-3">
+                        <input class="form-control" type="text" name="chat-input" id="chat-input"
+                            placeholder="Escribe tu mensaje..." />
+                        <button class="btn btn-outline-secondary" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="error-message"></div>
+        <div style="display: flex; justify-content: center; align-items: center">
+            <span style="display: none" id="barra">
+                <img style="width: 286px" src="./../img/barra.gif" alt="Procesando..." />
+            </span>
+        </div>
+        <div class="px-3 pb-3 pt-2 text-center text-xs text-gray-600 dark:text-gray-300 md:px-4 md:pb-6 md:pt-3">
+            <span>Vista
+                previa gratis. ChatGPT puede producir información inexacta sobre personas, lugares o hechos.
+                <a href="https://stackcodelab.com/" target="_blank" class="underline">ChatGPT May 24 Version</a></span>
+        </div>
+    </main>
+
+    <!-- Archivo de script para la funcionalidad del chat -->
+    <script src="./../js/chatHistory.js"></script>
+    <script src="./../js/chatApi.js"></script>
+    <script src="./../js/chat.js"></script>
+    <!-- Librería de jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- Librería de Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+        integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

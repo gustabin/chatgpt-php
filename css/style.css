@@ -1,0 +1,69 @@
+/* Estilos CSS */
+/* Estilos del área de texto */
+.textarea {
+    /* Tamaño y posición */
+    width: calc(100% - 10px);
+    height: calc(100vh - 150px);
+    margin-left: 10px;
+    /* Estilos de fuente */
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    /* Espaciado y relleno */
+    padding: 20px;
+    padding-right: 140px;
+    /* Otras propiedades */
+    line-height: 180%;
+    vertical-align: top;
+    cursor: auto;
+    resize: none;
+    outline: none;
+    border: none;
+    background-color: #f2f2f2;
+    overflow: auto;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* Estilos de la barra de desplazamiento */
+.textarea::-webkit-scrollbar {
+    width: 10px;
+}
+
+.textarea::-webkit-scrollbar-thumb {
+    background: #cacaca;
+    border-radius: 4px;
+}
+
+/* Estilos de los mensajes */
+.message {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Estilos del mensaje del usuario */
+.user-message {
+    background-color: #eff6ff;
+    color: #000000;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos del mensaje del chatbot */
+.bot-message {
+    background-color: #f8f8f8;
+    color: #333333;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+/* Estilos del fondo gris */
+.fondo-gris {
+    background-color: #ecebeb;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.text-xs {
+    font-size: 10px;
+}

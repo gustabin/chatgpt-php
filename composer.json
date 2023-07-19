@@ -1,0 +1,11 @@
+{
+    "name": "chatbot-chatgpt-php",
+    "version": "1.0.0",
+    "description": "chatbot con php",
+    "autoload": {
+        "psr-4": {
+        "MiChatgpt\\": "chatgptModulos/"
+        }
+    }
+}
+  

@@ -1,0 +1,3 @@
+// chatHistory.js
+var chatHistory = [];
+
