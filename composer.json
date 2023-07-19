@@ -1,7 +1,7 @@
 {
     "name": "gustabin/chatgptphp",
     "description": "Chatbot using chatgpt with PHP",
-    "type": "library",
+    "type": "project",
     "keywords": ["chatbot", "chatgpt", "php"],
     "license": "MIT",
     "authors": [
