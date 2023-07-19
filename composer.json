@@ -15,7 +15,9 @@
         "source": "https://github.com/gustabin/chatgptModulos.git"
     },
     "require": {
-        "php": ">=8.0.0"
+        "php": ">=8.0.0",
+        "twbs/bootstrap": "^5.3",
+        "components/jquery": "^3.6"
     },
     "minimum-stability" : "dev",
     "autoload": {
