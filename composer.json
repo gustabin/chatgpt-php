@@ -1,8 +1,8 @@
 {
     "name": "gustabin/chatgptphp",
-    "description": "Chatbot using chatgpt with PHP",
+    "description": "Chatbot using openai API chatgpt in PHP",
     "type": "project",
-    "keywords": ["chatbot", "chatgpt", "php"],
+    "keywords": ["chatbot", "chatgpt", "php", "openai", "API"],
     "license": "MIT",
     "authors": [
         {
@@ -15,9 +15,7 @@
         "source": "https://github.com/gustabin/chatgptModulos.git"
     },
     "require": {
-        "php": "^8.0",
-        "twbs/bootstrap": "^5.3",
-        "components/jquery": "^3.6",
+        "php": "^8.0",        
         "gustabin/chatgpt-php": "dev-main"
     },
     "minimum-stability" : "dev",
