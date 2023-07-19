@@ -1,5 +1,5 @@
 {
-    "name": "gustabin/chatgptphp",
+    "name": "gustabin/chatgpt-php",
     "description": "Chatbot using chatgpt with PHP",
     "type": "project",
     "keywords": ["chatbot", "chatgpt", "php"],
