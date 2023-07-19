@@ -1,5 +1,5 @@
 {
-    "name": "gustabin/chatgpt-php",
+    "name": "gustabin/chatgptphp",
     "description": "Chatbot using chatgpt with PHP",
     "type": "project",
     "keywords": ["chatbot", "chatgpt", "php"],
@@ -17,7 +17,8 @@
     "require": {
         "php": "^8.0",
         "twbs/bootstrap": "^5.3",
-        "components/jquery": "^3.6"
+        "components/jquery": "^3.6",
+        "gustabin/chatgpt-php": "dev-main"
     },
     "minimum-stability" : "dev",
     "autoload": {
