@@ -1,5 +1,5 @@
 {
-    "name": "chatbot_gpt_php/chatbot_gpt_php",
+    "name": "gustabin/chatgpt-php",
     "type": "library",
     "description": "Chatbot con chatgpt en PHP",
     "keywords": ["chatbot", "chatgpt", "chatbot con php"],
