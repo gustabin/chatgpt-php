@@ -17,8 +17,7 @@
     "require": {
         "php": "^8.0",
         "twbs/bootstrap": "^5.3",
-        "components/jquery": "^3.6",
-        "gustabin/chatgpt-php": "dev-main"
+        "components/jquery": "^3.6"
     },
     "minimum-stability" : "dev",
     "autoload": {
