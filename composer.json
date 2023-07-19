@@ -1,11 +1,24 @@
 {
-    "name": "chatbot-chatgpt-php",
-    "version": "1.0.0",
-    "description": "chatbot con php",
+    "name": "chatbot_gpt_php/chatbot_gpt_php",
+    "type": "library",
+    "description": "Chatbot con chatgpt en PHP",
+    "keywords": ["chatbot","chatgpt","chatbot con php"],
+    "homepage": "https://github.com/gustabin/chatgptModulos/tree/main",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gustavo Arias",
+            "email": "gustabin@yahoo.com",
+            "homepage": "https://stackcodelab.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0"
+    },
     "autoload": {
-        "psr-4": {
-        "MiChatgpt\\": "chatgptModulos/"
+        "psr-0": {
+            "Monolog": "src"
         }
     }
-}
-  
+}  
