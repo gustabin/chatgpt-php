@@ -1,59 +1,58 @@
-﻿# Chatbot using chatgpt in PHP
-
 # ChatBot
 
-## Descripción
+## Description
 
-Este es un sencillo chatbot que utiliza la API de OpenAI para generar respuestas a partir de mensajes ingresados por el usuario. El chatbot es capaz de generar texto coherente y relevante, mantener el contexto de la conversación y realizar tareas específicas.
+This is a simple chatbot that uses the OpenAI API to generate responses based on user-input messages. The chatbot is capable of generating coherent and relevant text, maintaining conversation context, and performing specific tasks.
 
-### Ejemplo
+### Example
 
-- "¿Puedes decirme cuál es la capital de Francia?"
-- "¿Cuál es tu opinión sobre el cambio climático?"
-- "¿Podrías recomendarme una película de comedia?"
+- "Can you tell me the capital of France?"
+- "What is your opinion on climate change?"
+- "Could you recommend a comedy movie?"
 
-## Capacidades
+## Capabilities
 
-- Capacidad de generar texto coherente y relevante.
-- Capaz de recordar y mantener el contexto de la conversación.
-- Capacidad de realizar tareas específicas.
+- Ability to generate coherent and relevant text.
+- Can remember and maintain conversation context.
+- Ability to perform specific tasks.
 
-## Limitaciones
+## Limitations
 
-- Generación de respuestas sin fundamentos.
-- Falta de comprensión contextual profunda.
-- Dificultad para pedir clarificaciones.
+- Generation of responses without sound foundations.
+- Lack of deep contextual understanding.
+- Difficulty in asking for clarifications.
 
-## Vista previa
+## Preview
 
-![Vista previa](./ruta/hacia/imagen.png)
+![Preview](./path/to/image.png)
 
-## Uso
+## Usage
 
-1. Clona este repositorio.
-2. Abre el archivo `index.html` en tu navegador web.
-3. Interactúa con el chatbot ingresando mensajes en el campo de entrada y haciendo clic en "Enviar".
+1. Clone this repository.
+2. Open the `index.html` file in your web browser.
+3. Interact with the chatbot by entering messages in the input field and clicking "Send."
 
-## Archivos
+## Files
 
-- `index.html`: Archivo principal que contiene la interfaz del chatbot.
-- `chat.js`: Script para la funcionalidad del chat.
-- `chatApi.js`: Script para realizar la solicitud a la API de OpenAI y obtener respuestas del chatbot.
-- `chatHistory.js`: Historial de chat para mantener un registro de las conversaciones.
-- `chat.php`: Archivo PHP para procesar las solicitudes del chatbot a la API de OpenAI.
+- `index.html`: Main file containing the chatbot's interface.
+- `chat.js`: Script for the chat's functionality.
+- `chatApi.js`: Script to make requests to the OpenAI API and obtain chatbot responses.
+- `chatHistory.js`: Chat history to keep a record of conversations.
+- `chat.php`: PHP file to process chatbot requests to the OpenAI API.
 
-## Créditos
+## Credits
 
-- Autor: Ing. Gustavo Arias
-- Sitio web: [Stack code lab](https://stackcodelab.com/)
+- Author: Ing. Gustavo Arias
+- Website: [Stack code lab](https://stackcodelab.com/)
 
-## Notas
+## Notes
 
-Vista previa gratis. ChatGPT puede producir información inexacta sobre personas, lugares o hechos.
+Free preview. ChatGPT may produce inaccurate information about people, places, or facts.
 
-## Licencia
+## License
 
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
+This project is under the MIT License. See the `LICENSE` file for more details.
+
 
 ## Installation
 composer create-project gustabin/chatgpt-php
