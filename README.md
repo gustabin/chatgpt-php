@@ -24,7 +24,7 @@ This is a simple chatbot that uses the OpenAI API to generate responses based on
 
 ## Preview
 
-![Preview](./path/to/image.png)
+![Preview](./img/favicon.ico)
 
 ## Usage
 
