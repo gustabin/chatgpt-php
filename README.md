@@ -4,27 +4,6 @@
 
 This is a simple chatbot that uses the OpenAI API to generate responses based on user-input messages. The chatbot is capable of generating coherent and relevant text, maintaining conversation context, and performing specific tasks.
 
-### Example
-
-- "Can you tell me the capital of France?"
-- "What is your opinion on climate change?"
-- "Could you recommend a comedy movie?"
-
-## Capabilities
-
-- Ability to generate coherent and relevant text.
-- Can remember and maintain conversation context.
-- Ability to perform specific tasks.
-
-## Limitations
-
-- Generation of responses without sound foundations.
-- Lack of deep contextual understanding.
-- Difficulty in asking for clarifications.
-
-## Preview
-
-![Preview](./img/favicon.ico)
 
 ## Usage
 
